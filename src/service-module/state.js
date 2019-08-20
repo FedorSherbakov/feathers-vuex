@@ -30,7 +30,7 @@ export default function makeDefaultState (servicePath, options) {
     pagination: {},
     paramsForServer,
     whitelist,
-    
+
     setCurrentOnGet: true,
     setCurrentOnCreate: true,
 

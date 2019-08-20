@@ -199,7 +199,7 @@ export default function makeServiceMutations (servicePath, { debug, globalModels
 
       // Object.assign(current, copy)
     },
-    
+
     // Resets the copy to match the original record, locally
     rejectCopy (state, id) {
       const isIdOk = checkId(id, undefined, debug)
@@ -222,7 +222,7 @@ export default function makeServiceMutations (servicePath, { debug, globalModels
       delete newCopiesById[id]
       state.copiesById = newCopiesById
     },
-    
+
     clearAll (state) {
       state.ids = []
       state.currentId = null
